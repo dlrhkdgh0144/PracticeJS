@@ -9,4 +9,5 @@ bgImage.src = `img/${chosenImage}`;
 //document.body.appendChild(bgImage);
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundImage = `url(img/${chosenImage})`;
-document.body.style.backgroundSize = "1600px";
+//document.body.style.backgroundSize = "1000px";
+document.body.style.backgroundSize = "cover";
