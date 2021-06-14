@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    color: white;
+}
+h1{
+    transition: color 0.5s ease-in-out;
+}
+
+.active{
+    color: lime;
+}
+.hidden{
+    display: none;
+}
+.center-container{
+    position: relative;
+    width: 1600px;
+    height: 500px;
+}
+.greet{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.clock{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    font-size: 90px;
+    alignment: center;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
